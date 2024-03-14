@@ -103,7 +103,7 @@ gulp.task('browser-sync', function(done) {
             baseDir: "./dev"
         }
     });
-gulp.watch("dev/**/*.*").on('change', browserSync.reload);
+gulp.watch("src/**/*.*").on('change', browserSync.reload);
 });
 
 // Compile sass to css
